@@ -22,6 +22,8 @@ cost = int(input('Введите издержки фирмы: '))
 if revenue > cost:
     print(f'Финансовый результат - прибыль. Ее величина: {revenue - cost}')
     print(f'Рентабельность выручки = {(revenue - cost) / revenue}')
+elif revenue == cost:
+    print(f'Выручка {revenue} равна издержки {cost}')
 else:
     print(f'Финансовый результат - убыток. Ее величина: {revenue - cost}')
 
