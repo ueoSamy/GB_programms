@@ -15,3 +15,5 @@ user_pass = input('Введите ваш пароль: ')
 user_age = int(input('Введите ваш возраст: '))
 
 print(f'Ваши данные для входа в аккаунт: имя - {user_name}, пароль - {user_pass}, возраст - {user_age}')
+
+#git added
